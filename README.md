@@ -20,7 +20,7 @@
 <h2>Let's Get Started</h2>
 
 <p></p>
-<img src="C:\Users\ovesh\Pictures\Picture1.png" alt="Description of the image" width="300">
+
 
 
 </body>
