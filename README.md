@@ -7,7 +7,7 @@
 
 <h2>What's Inside?</h2>
 
-<p>In this repository, you'll find comprehensive documentation detailing our approach, methodologies, and the technical insights gained throughout the project. From initial conceptualization to implementation strategies and best practices, I've meticulously documented every aspect to provide a comprehensive resource for anyone interested in harnessing the power of Amazon VPC for their network architecture needs.</p>
+<p>In this repository, you'll find comprehensive documentation detailing my approach, methodologies, and technical insights gained throughout the project. From initial conceptualization to implementation strategies and best practices, I've meticulously documented every aspect to provide a comprehensive resource for anyone interested in harnessing the power of Amazon VPC for their network architecture needs.</p>
 
 <h3>Key Features:</h3>
 <ul>
@@ -21,8 +21,8 @@
 
 <p>
     <img src="/Images/Picture1.png" width="1000">    
-    <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;'><span style="font-size:16px;">The Above Virtual Private Cloud Architecture will be created in 1 region and will span in 4 different availability zones for high availability and fault tolerance purpose. Each availability zone will have 4 group of Subnets. 1 public, 2 private and 1 spare for future use.</span></p>
-<p><span style='font-size:16px;font-family:"Calibri",sans-serif;'>The following table is a list of CIDR block for each subnet that we will be deploying in 4 different availability zones.<br>&nbsp;</span></p>
+    <p>The above Virtual Private Cloud Architecture will be created in 1 region and will span in 4 different availability zones for high availability and fault tolerance purposes. Each availability zone will have 4 groups of Subnets. 1 public, 2 private and 1 spare for future use.</p>
+<p>The following table is a list of CIDR blocks for each subnet that we will be deploying in 4 different availability zones.<br>&nbsp;</p>
 <div align="center" style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;font-size:11.0pt;font-family:"Calibri",sans-serif;'>
     <table style="border: none;border-collapse:collapse;">
         <tbody>
@@ -260,7 +260,7 @@
         </tbody>
     </table>
 </div>
-<p><h2><strong>Deployment Steps:</strong></h2></p>
+<p><h2><strong>Task 1: Deployment Steps</strong></h2></p>
 <p><strong>1. Create VPC</strong><br><br>I have followed the steps given in&nbsp;</span><a href="https://docs.aws.amazon.com/quickstart/latest/vpc/architecture.html">https://docs.aws.amazon.com/quickstart/latest/vpc/architecture.html</a>&nbsp;to deploy this VPC of 10.0.0.0/16 CIDR block.<br>The CloudFormation template was used to create a stack of resources. These resources are needed to be deployed for this architecture.<br> Stack name = <strong>&ldquo;OveshProject1&rdquo;</strong></span><br>Stack ID =&nbsp;</span><a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/stackinfo?stackId=arn%3Aaws%3Acloudformation%3Aus-east-1%3A672277104205%3Astack%2FOveshProject1%2F712677f0-49b8-11ed-a817-0a533431ff97">https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/stackinfo?stackId=arn%3Aaws%3Acloudformation%3Aus-east-1%3A672277104205%3Astack%2FOveshProject1%2F712677f0-49b8-11ed-a817-0a533431ff97</a></p>
 
 <img src="/Images/Picture2.png" width="1000">    
